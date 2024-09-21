@@ -5,7 +5,7 @@
       options = {
         desc = "Move to next buffer";
       };
-      key = "<C-Tab>";
+      key = "<C-\]>";
       action = "<cmd>bn<cr>";
     }
 
@@ -13,7 +13,7 @@
       options = {
         desc = "Move to previous buffer";
       };
-      key = "<C-S-Tab>";
+      key = "<C-\[>";
       action = "<cmd>bp<cr>";
     }
 
