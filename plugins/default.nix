@@ -4,6 +4,7 @@
     ./editor/neo-scroll.nix
     ./editor/neo-tree.nix
     ./editor/nix.nix
+    ./editor/render-markdown.nix
     ./editor/telescope.nix
     ./editor/toggleterm.nix
     ./editor/treesitter.nix

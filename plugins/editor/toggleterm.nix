@@ -9,7 +9,7 @@
       autochdir = true;
       close_on_exit = true;
       direction = "float";
-      open_mapping = "[[<leader>t]]";
+      open_mapping = "[[<C-\\>]]";
     };
   };
 }

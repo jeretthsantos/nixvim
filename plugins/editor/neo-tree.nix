@@ -29,6 +29,7 @@
       options = {
         desc = "Toggle NeoTree";
       };
+      mode = "n";
       key = "<leader>e";
       action = "<cmd>Neotree toggle<cr>";
     }
