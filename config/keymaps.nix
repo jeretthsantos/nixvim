@@ -1,6 +1,7 @@
 {
   keymaps = [
     # Buffer
+
     {
       options = {
         desc = "Move to next buffer";
@@ -24,5 +25,15 @@
       key = "<C-w>";
       action = "<cmd>bd<cr>";
     }
+
+    {
+      options = {
+        desc = "Copy to system clipboard";
+      };
+      mode = "v";
+      key = "<leader>y";
+      action = "\"+y";
+    }
+
   ];
 }
